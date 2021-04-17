@@ -1,0 +1,289 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.box{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+.nav{
+	width: 1300px;
+	height: 90px;
+	background-color: rgba(255,255,255,1);
+	margin: 0 auto;
+}
+/* ----------------装nav1和 logo 的盒子------- */
+.con1{
+	width: auto;
+	height: 90px;
+	/* background-color: yellow; */
+	/* margin: 0 auto; */
+}
+.con1 img{
+	/* display: block; */
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 50px;
+}
+.nav1{
+	width: auto;
+	height: 90px;
+	float: left;
+}
+.nav1 ul li{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 50px;
+}
+.nav1 ul li:nth-child(1){
+	margin-left: 200px;
+}
+.nav1 ul li a{
+	color: #3f3f3f;
+}
+.nav2{
+	width: 300px;
+	height: 100%;
+	/* background-color: yellow; */
+	float: right;
+	position: relative;
+}
+.nav2 ul li{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 30px;
+}
+.nav2 ul li a img{
+	width: 24px;
+	height: 24px;
+	margin-top: 33px;
+}
+.shop-show{
+	width: 340px;
+	height: 90px;
+	background-color: #fff;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	text-align: center;
+	display: none;
+}
+.nav2 ul li a:hover + .shop-show{
+	display: block;
+}
+
+/* ---------------------------------主要内容  main------------------ */
+.main{
+	width: 100%;
+	height: 1000px;
+	background-color: #f5f5f5;
+}
+.con2{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	/* outline: 1px solid blue; */
+}
+.con2-left{
+	width: 65%;
+	height: 900px;
+	/* outline: 1px solid blue; */
+	float: left;
+	padding: 50px 0 0;
+}
+.left-top{
+	width: 100%;
+	height: 500px;
+	/* outline: 1px solid blue; */
+	background-image: url(../img/left-top.webp);
+	background-size: 100% 100%;
+	/* padding:  0 0 10px; */
+	
+}
+.inner1{
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+	padding: 100px 0 0;
+}
+.inner2{
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	padding: 10px 0;
+}
+.left-bot{
+	width: 100%;
+	height: 400px;
+	margin-top: 20px;
+	/* outline: 1px solid blue; */
+}
+.pic-left{
+	width: 49%;
+	height: 400px;
+	float: left;
+	background-image: url(../img/pic-left.webp);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.pic-right{
+	float: right;
+	width: 40%;
+	height: 400px;
+	background-image: url(../img/pic-right.webp);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.con2-right{
+	width: 30%;
+	height: 1000px;
+	/* outline: 1px solid blue; */
+	float: right;
+}
+.right-top{
+	width: 100%;
+	height: 600px;
+	/* outline: 1px solid red; */
+	box-sizing: border-box;
+	padding: 50px 20px 0;
+	
+	
+}
+.right-top p{
+	font-size: 40px;
+	color: #000;
+	padding: 0 0 10px;
+}
+.right-top span{
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+.right-bot{
+	width: 100%;
+	height: 300px;
+	background-color: #0000FF;
+	margin-top: 65px;
+	background-image: url(../img/question-bg.webp);
+	background-size: 100% 100%;
+}
+/* --------------------------------------main2  三块 div  全是文字   --- */
+.main2{
+	width: 100%;
+	height: 150px;
+	margin-top: 50px;
+	background-color: #fff;
+	padding: 100px 0;
+}
+.con3{
+	width: 1200px;
+	height: 150px;
+	/* background-color: aqua; */
+	margin: 0 auto;
+	padding: 15px 0 0;
+}
+.one{
+	width: 33.3%;
+	height: 150px;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 20px;
+}
+.one img{
+	width: 25px;
+}
+.one span{
+	font-size: 28px;
+	color: #364D65;
+}
+.one small{
+	color: #999;
+	font-size: 14px;
+	line-height: 30px;
+}
+/* --------------------------------------------<!-- main3   一排轮播图片 -->------- */
+.main3{
+	width: 100%;
+	height: 300px;
+	background-color: #fff;
+	border-top: 1px solid #b0b0b0;
+	border-bottom: 1px solid #b0b0b0;
+}
+.con4{
+	width: 1200px;
+	height: 100px;
+	/* background-color: #0000FF; */
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.con4 div{
+	width: 240px;
+	height: 100px;
+	float: left;
+	box-sizing: border-box;
+	padding: 15px;
+	/* background-color: greenyellow; */
+}
+.con4 div img{
+	width: 100%;
+	height: 100%;
+}
+/* ---------------------------------页尾 footer----------- */
+.footer{
+	width: 100%;
+	height: 400px;
+	background-color: #FFFFFF;
+	border-top: 1px solid black;
+}
+.con7{
+	width: 1200px;
+	height: 200px;
+	/* outline: 1px solid red; */
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.message{
+	width: 550px;
+	height: 200px;
+	/* outline: 1px solid red; */
+	float: left;
+	box-sizing: border-box;
+	padding: 0 40px;
+}
+.message img{
+	width: 40px;
+	padding: 20px 0;
+}
+.message span{
+	font-size: 14px;
+	color: #364d65;
+	/* letter-spacing: 2px; */
+	line-height: 30px;
+}
+.message p{
+	font-size: 16px;
+	color: #364D65;
+	letter-spacing: 3px;
+	padding: 20px 0 0;
+}
+.store{
+	width: 200px;
+	height: 200px;
+	/* outline: 1px solid red; */
+	float: right;
+	box-sizing: border-box;
+}
+.store dl dt{
+	font-size: 20px;
+	color: #364D65;
+	padding: 20px 0 20px 10px;
+}
+.store dl dd{
+	font-size: 14px;
+	color: #364D65;
+	padding: 0 0 15px 10px;
+}

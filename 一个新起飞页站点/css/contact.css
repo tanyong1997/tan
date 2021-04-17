@@ -1,0 +1,221 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.box{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	/* outline: 1px solid red; */
+}
+.nav{
+	width: 1300px;
+	height: 90px;
+	background-color: rgba(255,255,255,1);
+	margin: 0 auto;
+}
+/* ----------------装nav1和 logo 的盒子------- */
+.con1{
+	width: auto;
+	height: 90px;
+	/* background-color: yellow; */
+	/* margin: 0 auto; */
+}
+.con1 img{
+	/* display: block; */
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 50px;
+}
+.nav1{
+	width: auto;
+	height: 90px;
+	float: left;
+}
+.nav1 ul li{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 50px;
+}
+.nav1 ul li:nth-child(1){
+	margin-left: 200px;
+}
+.nav1 ul li a{
+	color: #3f3f3f;
+}
+.nav2{
+	width: 300px;
+	height: 100%;
+	/* background-color: yellow; */
+	float: right;
+	position: relative;
+}
+.nav2 ul li{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 30px;
+}
+.nav2 ul li a img{
+	width: 24px;
+	height: 24px;
+	margin-top: 33px;
+}
+.shop-show{
+	width: 340px;
+	height: 90px;
+	background-color: #fff;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	text-align: center;
+	display: none;
+}
+.nav2 ul li a:hover + .shop-show{
+	display: block;
+}
+/* -----------------------------------------------map 地图------ */
+.map{
+	width: 100%;
+	height: 530px;
+	margin-top: 50px;
+}
+.con2{
+	width: 1200px;
+	height: 530px;
+	margin: 0 auto;
+	background: url(../img/map.png);
+}
+/* --------------------------------------------------contact----- */
+.contact{
+	width: 100%;
+	height: 250px;
+	padding: 50px 0;
+	
+}
+.con3{
+	width: 1200px;
+	height: 250px;
+	margin: 0 auto;
+}
+.con3 div{
+	width: 383px;
+	height: 248px;
+	float: left;
+	border: 1px solid #b0b0b0;
+	margin-left: 15px;
+	box-sizing: border-box;
+	padding: 50px 80px 0;
+}
+.con3 div h1{
+	font-size: 18px;
+	padding: 0 0 30px;
+}
+.con3 div span{
+	font-size: 14px;
+	color: #999;
+}
+.con3 div:hover{
+	transform: translateY(5px);
+	box-shadow: 0 -3px 0 0 #ff6700;
+	transition: all 0.2s linear;
+}
+
+/* --------------------------------------- */
+.question {
+	width: 100%;
+	height: 340px;
+	background-image: url(../img/question-bg.webp);
+	margin-top: 50px;
+	border-top: 1px solid #b0b0b0;
+}
+.con6{
+	width: 500px;
+	height: 240px;
+	/* outline: 1px solid red; */
+	margin: 0 auto;
+	padding: 50px 0;
+}
+.question1{
+	font-size: 40px;
+	color: #333;
+	text-align: center;
+	padding: 60px 0 0 ;
+}
+.btn{
+	height: 40px;
+	/* text-align: center; */
+	padding: 30px 0 0;
+	/* overflow: hidden; */
+}
+.inform{
+	width: 230px;
+	height: 40px;
+	margin-left: 50px;
+	color: #b0b0b0;
+}
+.sub{
+	width: 120px;
+	height: 40px;
+	/* margin-top: 20px; */
+	position: absolute;
+	margin-left: 15px;
+}
+/* ---------------------------------------------页尾 footer-------- */
+.footer{
+	width: 100%;
+	height: 400px;
+	background-color: #FFFFFF;
+	border-top: 1px solid black;
+}
+.con7{
+	width: 1200px;
+	height: 200px;
+	/* outline: 1px solid red; */
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.message{
+	width: 550px;
+	height: 200px;
+	/* outline: 1px solid red; */
+	float: left;
+	box-sizing: border-box;
+	padding: 0 40px;
+}
+.message img{
+	width: 40px;
+	padding: 20px 0;
+}
+.message span{
+	font-size: 14px;
+	color: #364d65;
+	/* letter-spacing: 2px; */
+	line-height: 30px;
+}
+.message p{
+	font-size: 16px;
+	color: #364D65;
+	letter-spacing: 3px;
+	padding: 20px 0 0;
+}
+.store{
+	width: 200px;
+	height: 200px;
+	/* outline: 1px solid red; */
+	float: right;
+	box-sizing: border-box;
+}
+.store dl dt{
+	font-size: 20px;
+	color: #364D65;
+	padding: 20px 0 20px 10px;
+}
+.store dl dd{
+	font-size: 14px;
+	color: #364D65;
+	padding: 0 0 15px 10px;
+}

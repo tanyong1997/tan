@@ -1,0 +1,177 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.box{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+}
+.nav{
+	width: 1300px;
+	height: 90px;
+	background-color: rgba(255,255,255,1);
+	margin: 0 auto;
+}
+/* ----------------装nav1和 logo 的盒子------- */
+.con1{
+	width: auto;
+	height: 90px;
+	/* background-color: yellow; */
+	/* margin: 0 auto; */
+}
+.con1 img{
+	/* display: block; */
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 50px;
+}
+.nav1{
+	width: auto;
+	height: 90px;
+	float: left;
+}
+.nav1 ul li{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 50px;
+}
+.nav1 ul li:nth-child(1){
+	margin-left: 200px;
+}
+.nav1 ul li a{
+	color: #3f3f3f;
+}
+.nav2{
+	width: 300px;
+	height: 100%;
+	/* background-color: yellow; */
+	float: right;
+	position: relative;
+}
+.nav2 ul li{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 30px;
+}
+.nav2 ul li a img{
+	width: 24px;
+	height: 24px;
+	margin-top: 33px;
+}
+.shop-show{
+	width: 340px;
+	height: 90px;
+	background-color: #fff;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	text-align: center;
+	display: none;
+}
+.nav2 ul li a:hover + .shop-show{
+	display: block;
+}
+
+/* --------------------------------------main ---------- */
+.main{
+	width: 100%;
+	height: 1600px;
+	/* border: 1px solid #999; */
+	box-sizing: border-box;
+	padding: 0 5% ;
+}
+.inner{
+	width: 23%;
+	height: 480px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 30px;
+	outline: 1px solid #d0d0d0;
+}
+.inner a img{
+	width: 100%;
+	height: 314px;
+}
+.inner div{
+	text-align: center;
+}
+.series{
+	font-size: 24px;
+	color: #494949;
+	padding: 20px 0 0;
+}
+.parter{
+	font-size: 16px;
+	color: #a8a8a8;
+	padding: 10px  0;
+}
+.price{
+	font-size: 30px;
+	color: #000;
+}
+.inner:hover{
+	transition: all 0.3s linear; 
+	transform: translateY(-10px);
+	box-shadow: 0 10px 5px 1px #999;
+	
+}
+/* --------------------------------页尾 footer------------- */
+.footer{
+	width: 100%;
+	height: 400px;
+	background-color: #FFFFFF;
+	border-top: 1px solid black;
+}
+.con7{
+	width: 1200px;
+	height: 200px;
+	/* outline: 1px solid red; */
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.message{
+	width: 550px;
+	height: 200px;
+	/* outline: 1px solid red; */
+	float: left;
+	box-sizing: border-box;
+	padding: 0 40px;
+}
+.message img{
+	width: 40px;
+	padding: 20px 0;
+}
+.message span{
+	font-size: 14px;
+	color: #364d65;
+	/* letter-spacing: 2px; */
+	line-height: 30px;
+}
+.message p{
+	font-size: 16px;
+	color: #364D65;
+	letter-spacing: 3px;
+	padding: 20px 0 0;
+}
+.store{
+	width: 200px;
+	height: 200px;
+	/* outline: 1px solid red; */
+	float: right;
+	box-sizing: border-box;
+}
+.store dl dt{
+	font-size: 20px;
+	color: #364D65;
+	padding: 20px 0 20px 10px;
+}
+.store dl dd{
+	font-size: 14px;
+	color: #364D65;
+	padding: 0 0 15px 10px;
+}

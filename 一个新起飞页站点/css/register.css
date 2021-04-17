@@ -1,0 +1,226 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+.box{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	background-image: url(../img/question-bg.webp);
+}
+.nav{
+	width: 1300px;
+	height: 90px;
+	/* background-color: rgba(255,255,255,.3); */
+	/* background-color: yellow; */
+	margin: 0 auto;
+}
+/* ----------------装nav1和 logo 的盒子------- */
+.con1{
+	width: auto;
+	height: 90px;
+	/* background-color: yellow; */
+	/* margin: 0 auto; */
+}
+.con1 img{
+	/* display: block; */
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 50px;
+}
+.nav1{
+	width: auto;
+	height: 90px;
+	float: left;
+}
+.nav1 ul li{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 50px;
+}
+.nav1 ul li:nth-child(1){
+	margin-left: 200px;
+}
+.nav1 ul li a{
+	color: #3f3f3f;
+}
+.nav2{
+	width: 300px;
+	height: 100%;
+	/* background-color: yellow; */
+	float: right;
+}
+.nav2 ul li{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 30px;
+}
+.nav2 ul li a img{
+	width: 24px;
+	height: 24px;
+	margin-top: 33px;
+}
+/* ----------------------------------------------主体部分  main---------- */
+.main{
+	width: 400px;
+	height: 600px;
+	/* background-color: #f5f5f5; */
+	margin: 0 auto;
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+	width: 40px;
+}
+.title{
+	font-size: 22px;
+	color: #333;
+	text-align: center;
+	padding: 10px 0 30px;
+}
+/* --------------------------------登录界面----------- */
+.login{
+	width: 100%;
+	height: 450px;
+	background-color: #000000;
+	box-sizing: border-box;
+	background-image: url(../img/login-bg.jpg);
+	background-position: 40% 60%;
+	padding: 50px 0;
+	position: relative;
+	/* display: none; */
+}
+.login .man{
+	position: absolute;
+	top:67.5px;
+	left: 60px;
+}
+.lock{
+	position: absolute;
+	top: 137.5px;
+	left: 60px;
+}
+.user{
+	display: block;
+	width: 300px;
+	height: 50px;
+	/* text-align: center; */
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 5px 0 5px 30px;
+	/* margin-top: 20px; */
+}
+.password{
+	display: block;
+	width: 300px;
+	height: 50px;
+	/* text-align: center; */
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 5px 0 5px 30px;
+	/* padding: 0 0 10px;*/
+}
+.check{
+	color: white;
+	/* text-align: center; */
+	margin-left: 50px;
+	box-sizing: border-box;
+	padding: 10px 0;
+	/* padding-right: 50px; */
+	/* border-bottom: 1px solid #b0b0b0; */
+}
+hr{
+	width: 75%;
+	margin: 0 auto;
+	
+	/* padding: 5px 0; */
+}
+.re{
+	display: block;
+	width: 300px;
+	height: 50px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 50px;
+	/* padding: 10px 0; */
+	/* margin: 10px 0; */
+}
+.lo{
+	display: block;
+	width: 300px;
+	height: 50px;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 50px;
+}
+.forget{
+	display: block;
+	width: auto;
+	height: 40px;
+	color: #999;
+	font-size: 13px;
+	line-height: 40px;
+	margin-left: 220px;
+}
+/* ----------------------注册界面----- */
+.register{
+	width: 100%;
+	height: auto;
+	/* background-color: #000000; */
+	background-image: url(../img/login-bg.jpg);
+	background-position: 40% 60%;
+	box-sizing: border-box;
+	padding: 50px 0;
+	display: none;
+	position: relative;
+}
+.man1{
+	position: absolute;
+	left: 60px;
+	top: 67px;
+}
+.lock1{
+	position: absolute;
+	top: 224px;
+	left: 60px;
+}
+.code{
+	display: block;
+	font-size: 13px;
+	color: #999;
+	margin-left: 50px;
+	padding: 10px 0;
+}
+
+
+/* ------------------------ */
+.explain p{
+	font-size: 16px;
+	color: #000;
+	padding: 20px 0 10px;
+}
+.explain span{
+	display: block;
+	font-size: 13px;
+	color: #000;
+	line-height: 30px;
+}
+.user1{
+	display: block;
+	width: 300px;
+	height: 50px;
+	/* text-align: center; */
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 5px 0 5px 30px;
+	/* padding: 10px 0; */
+}
